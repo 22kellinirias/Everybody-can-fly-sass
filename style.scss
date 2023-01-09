@@ -1,0 +1,57 @@
+body{
+    background: rgb(65,130,103);
+background: linear-gradient(0deg, rgba(65,130,103,1) 0%, rgba(213,148,207,1) 59%, rgba(208,192,218,1) 75%, rgba(178,165,174,0.9521847345132743) 98%);
+}
+
+h1{
+    font-size: 30px;
+    color: rgb(151, 155, 33);
+    font-size: xx-large;
+    font-style: oblique;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: xx-large;
+    font-style: italic;
+    background-color: black;
+
+}
+
+.navigation__item{
+    color: rgb(154, 54, 165);
+}
+
+.img1{
+    width: 13%;
+    height: 17%;
+    border-radius: 15%;
+    border: none;
+}
+
+.img2{
+    width: 20%;
+    border-radius: 16%; 
+}
+
+.img3{
+    width: 17%;
+    border-radius: 17%;
+}
+
+.img{
+    width: 40%;
+}
+.imgen{
+    width: 22%;
+}
+#contenedor2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.boton{
+    background-color: rgb(84, 81, 29);
+    border: none;
+}

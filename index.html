@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>everybody</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!--bloque contenedor header-->
+<header class="header">
+    <!--bloue de barra de navegacion-->
+    <nav class="navigation">
+        <h1>Everybody Can Fly</h1>
+        <!--elementos class=¨navigation__item¨-->
+            
+                <a href="descripcion" class="navigation__item navigation__item--cursive">Inicio</a>
+                <a href="we" class="navigation__item">Nosotros</a>
+                <a href="travel" class="navigation__item">Vuelos</a>
+                <a href="crucero" class="navigation__item">crucero</a>
+    </nav>
+</header>
+
+<!--bloques, elementos,-->
+<h2>Destinos mas destacados</h2>
+<hr>
+
+<div id="contenedor1">
+    <div class="caja"><!--bloque-->
+        <a href="viaje" class="roatan"><img src="roatan.jpeg" class="img1"><button class="boton">Ver</button></a>
+        <a href="viaje" class="puerto"><img src="puerto.webp" class="img1"><button class="boton">Ver</button></a>
+        <a href="viaje" class="trujillo"><img src="truji.jpg" class="img2"><button class="boton">Ver</button></a>
+        <a href="viaje" class="ceiba"><img src="la-ceiba1.webp" class="img3"><button class="boton">Ver</button></a>
+    </div>
+</div>
+
+<!-- paquetes de la pagina-->
+<h2>Paquetes</h2>
+<hr>
+
+<div id="contenedor2">
+    <div class="caja2"><!--bloque2-->
+        <details>
+            <summary>
+                <a href="viaje" class="roatan"><img src="roatan2.jpg" class="img"><button>Comprar</button></a>    
+            </summary>
+            <p>Ticket avion/ferry</p>
+            <p>Hospedaje</p>
+            <p>Transporte (tour por la ciudad)</p>
+            <p>Alimentacion buffet (incluye solo desayuno)</p>
+            <p>Bebidas (limitadas)</p>
+            <p>piscina</p>
+            <h3>$876</h3>
+            <p>Duracion de 3 dias Hotel West Bay tu mejor opcion en viajes turisticos</p>
+        </details>
+    </div>
+     
+    <div class="caja2">
+        <details>
+            <summary> 
+        <a href="viaje" class="puerto"><img src="puert2.webp" class="img"><button>Comprar</button></a>
+            </summary>
+            <p>Ticket avion/ferry</p>
+            <p>Hospedaje</p>
+            <p>Transporte (tour por la ciudad)</p>
+            <p>Alimentacion buffet (incluye solo desayuno)</p>
+            <p>Bebidas (limitadas)</p>
+            <p>piscina</p>
+            <h3>$397</h3>
+            <p>Duracion de 3 dias Hotel Playa tu mejor opcion en viajes turisticos</p>
+        </details>
+    </div>
+
+    <div class="caja3">
+        <details>
+            <summary> 
+                <a href="viaje" class="trujillo"><img src="trujillo2.jpg" class="img"><button>Comprar</button></a>
+            </summary>
+            <p>Ticket avion/ferry</p>
+            <p>Hospedaje</p>
+            <p>Transporte (tour por la ciudad)</p>
+            <p>Alimentacion buffet (incluye solo desayuno)</p>
+            <p>Bebidas (limitadas)</p>
+            <p>piscina</p>
+            <h3>$522</h3>
+            <p>Duracion de 4 dias Hotel Capiro tu mejor opcion en viajes turisticos</p>
+        </details>
+    </div>
+
+    
+    <div class="caja3" >
+        <details>
+            <summary> 
+                <a href="viaje" class="ceiba"><img src="ceiba2.webp" class="imgen"><button>Comprar</button></a>
+            </summary>
+            <p>Ticket avion/ferry</p>
+            <p>Hospedaje</p>
+            <p>Transporte (tour por la ciudad)</p>
+            <p>Alimentacion buffet (incluye solo desayuno)</p>
+            <p>Bebidas (limitadas)</p>
+            <p>piscina</p>
+            <h3>$634</h3>
+            <p>Duracion de 5 dias Hotel Paris tu mejor opcion en viajes turisticos</p>
+        </details>
+    </div>
+</div>
+<hr>
+
+<!--bloque,formulario de ingreso-->
+<header>
+    <label for="text">A donde quiere ir?</label>
+    <input 
+    type="nombre"
+    name="nombre"
+    id="nombre"
+    placeholder="roatan">
+    <label for="text">Cuando?</label>
+    </header>
+    
+    <div id="contenedor1">
+      <header>
+        <label for="text">desde:</label>
+        <input class="input1"
+        type="nombre"
+        name="nombre"
+        id="nombre"
+        placeholder="tegusigalpa" class="hn">
+      </header>
+    </div>
+    
+    <div id="contenedor1">
+       <header>
+            <label for="text">a?</label>
+        <input class="input1" 
+        type="text"
+        name="text"
+        id="text"
+        placeholder="vacaciones" class="hn">
+      </header>
+    </div>
+    
+    <header>
+        <label for="text">Cuanta gente?</label>
+    <input class="input2"
+    type="number"
+    name="number"
+    id="number"
+    placeholder="4">
+    <label for="number">Adultos</label>
+    
+    <input class="input2"
+    type="number"
+    name="number"
+    id="number"
+    placeholder="2">
+    <label for="text">Niños/as</label>
+    </header>
+    
+    <button type="submit" id="submit"  class="boton">Enviar</button>
+    <hr>
